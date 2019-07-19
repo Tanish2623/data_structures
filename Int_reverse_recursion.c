@@ -21,6 +21,6 @@ int main(int argc,const char *argv[])
 	}
 	reverse(arr,0,j);
        for(i=0;i<argc-1;i++)
-	       printf("%d",arr[i]);
+	       printf("%d ",arr[i]);
        return 0;
 }
